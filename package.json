@@ -1,0 +1,36 @@
+{
+  "name": "@aigens/electron-virtual-keyboard",
+  "version": "1.1.1",
+  "description": "",
+  "main": "dist/index.min.js",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "files": [
+    "package-lock.json",
+    "package.json",
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "electron": "^14.0.0",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.77.8"
+  }
+}
